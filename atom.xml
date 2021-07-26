@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>不器的博客</title>
+  
+  <subtitle>碎碎念</subtitle>
+  <link href="https://yinjiahuan.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yinjiahuan.github.io/"/>
+  <updated>2021-07-26T12:56:53.328Z</updated>
+  <id>https://yinjiahuan.github.io/</id>
+  
+  <author>
+    <name>尹家欢</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学贝推文入门</title>
+    <link href="https://yinjiahuan.github.io/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/"/>
+    <id>https://yinjiahuan.github.io/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/</id>
+    <published>2021-07-26T12:26:37.597Z</published>
+    <updated>2021-07-26T12:56:53.328Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="整体要求"><a href="#整体要求" class="headerlink" title="整体要求"></a>整体要求</h3><p>简洁  大方  清晰  </p><hr><h3 id="排版要求"><a href="#排版要求" class="headerlink" title="排版要求"></a>排版要求</h3><p>字体大小：正文14px，标题：16px</p><p>统一段间距，字间距，字体：微软雅黑  字号越小，字间距相应越大，行间距也越大（个人比较喜欢字间距1.5，行间距1.75）</p><p>一般文字段要求，两端对齐、首行缩进。 </p><p>图片和文字之间要空一行。</p><p>选取的图片不能有水印，要说明出处</p><p>一般把材料复制过来以后先“清除格式”，避免原来的样式干扰后面的排版布局</p><hr><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><p>尽量不要用默认的截取的32个字，可以自己总结概括一下。或者直接把原来的删掉，用空白代替也行。</p><hr><h4 id="往期推荐"><a href="#往期推荐" class="headerlink" title="往期推荐"></a>往期推荐</h4><p>最下方的往期推荐选取最近的五篇推文</p><hr><h4 id="选材"><a href="#选材" class="headerlink" title="选材"></a>选材</h4><p>需要说明出处，例如：长沙理工大学计通学院官网</p><hr><h4 id="自我提升"><a href="#自我提升" class="headerlink" title="自我提升"></a>自我提升</h4><p>多看优秀的推文；多思考，当我拿到这样的题材的时候我要怎么做；多讨论，小组之间的推文策划创意，推文的检查修改；</p><hr><h4 id="优秀的微信公众号推荐"><a href="#优秀的微信公众号推荐" class="headerlink" title="优秀的微信公众号推荐"></a>优秀的微信公众号推荐</h4><p>长理学贝（最好的当然是自家的优秀推文啦）<br>长沙理工大学官微<br>晚安华师（华南师范大学官微）  </p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;整体要求&quot;&gt;&lt;a href=&quot;#整体要求&quot; class=&quot;headerlink&quot; title=&quot;整体要求&quot;&gt;&lt;/a&gt;整体要求&lt;/h3&gt;&lt;p&gt;简洁  大方  清晰  &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;排版要求&quot;&gt;&lt;a href=&quot;#排版要求&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    <category term="推文" scheme="https://yinjiahuan.github.io/categories/%E6%8E%A8%E6%96%87/"/>
+    
+    
+    <category term="推文" scheme="https://yinjiahuan.github.io/tags/%E6%8E%A8%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown写作入门</title>
+    <link href="https://yinjiahuan.github.io/2021/07/26/markdown%E5%86%99%E4%BD%9C%E5%85%A5%E9%97%A8/"/>
+    <id>https://yinjiahuan.github.io/2021/07/26/markdown%E5%86%99%E4%BD%9C%E5%85%A5%E9%97%A8/</id>
+    <published>2021-07-25T17:09:01.816Z</published>
+    <updated>2021-07-26T14:05:12.736Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1、代码块"><a href="#1、代码块" class="headerlink" title="1、代码块"></a>1、代码块</h3><p>  如图<br><img src="../blogimages/%E4%BB%A3%E7%A0%81%E5%9D%97.png"></p><h3 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h3><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(注意 # 和 标题之间要打空格)</span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">以此类推等等</span><br></pre></td></tr></table></figure><h3 id="3、字体样式"><a href="#3、字体样式" class="headerlink" title="3、字体样式"></a>3、字体样式</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">//</span>加粗</span><br><span class="line">**这是加粗样式**</span><br><span class="line"><span class="regexp">//</span>代码高亮显示</span><br><span class="line">==hello world==</span><br><span class="line"><span class="regexp">//</span>删除线</span><br><span class="line">~~可爱的删除线~~</span><br><span class="line"><span class="regexp">//</span>斜体</span><br><span class="line">*斜体来了*</span><br></pre></td></tr></table></figure><h3 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//引用语法</span><br><span class="line"><span class="meta">&gt;</span><span class="bash">作者：鲁迅</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;作者：鲁迅</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt;作者：鲁迅</span></span><br></pre></td></tr></table></figure><h3 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">//</span>分割线</span><br><span class="line">---全屏的分割线</span><br><span class="line">***局部的分割线</span><br></pre></td></tr></table></figure><h3 id="6、图片的插入"><a href="#6、图片的插入" class="headerlink" title="6、图片的插入"></a>6、图片的插入</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在线图片或者本地的图片（都是可以实现的）</span></span><br><span class="line">格式如下</span><br><span class="line"></span><br><span class="line">!<span class="selector-attr">[图片名称]</span>(图片的路径)</span><br><span class="line"></span><br><span class="line">本地：(最近贼喜欢的洛基)</span><br><span class="line">!<span class="selector-attr">[洛基]</span>(../blogimages/洛基<span class="number">3</span>.png)</span><br><span class="line">在线：</span><br><span class="line">!<span class="selector-attr">[]</span>(图片链接)</span><br></pre></td></tr></table></figure><p><img src="../blogimages/%E6%B4%9B%E5%9F%BA3.png" alt="图片名称">  </p><h3 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br></pre></td></tr></table></figure><h3 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">//</span>无序列表</span><br><span class="line">- 目录一</span><br><span class="line">- 目录二</span><br><span class="line">- 目录三</span><br><span class="line"><span class="regexp">//</span>有序列表 数字加 . 加 空格 加 名称  可以缩进设置分级表格</span><br><span class="line"><span class="number">1</span>.首页</span><br><span class="line"><span class="number">2</span>.分类</span><br><span class="line"><span class="number">3</span>.标签</span><br></pre></td></tr></table></figure><ul><li>目录一</li><li>目录二</li><li>目录三</li></ul><ol><li>首页  </li><li>分类<ol><li>123<ol><li>456<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3></li></ol></li></ol></li></ol><p> <a href="https://www.bilibili.com/video/BV1hJ411X75X">B站教程</a>   </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1、代码块&quot;&gt;&lt;a href=&quot;#1、代码块&quot; class=&quot;headerlink&quot; title=&quot;1、代码块&quot;&gt;&lt;/a&gt;1、代码块&lt;/h3&gt;&lt;p&gt;  如图&lt;br&gt;&lt;img src=&quot;../blogimages/%E4%BB%A3%E7%A0%81%E5%9D%9</summary>
+      
+    
+    
+    
+    <category term="工具篇" scheme="https://yinjiahuan.github.io/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+    <category term="工具" scheme="https://yinjiahuan.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的一篇博客</title>
+    <link href="https://yinjiahuan.github.io/2021/07/25/Test/"/>
+    <id>https://yinjiahuan.github.io/2021/07/25/Test/</id>
+    <published>2021-07-25T15:47:49.177Z</published>
+    <updated>2021-07-26T14:09:08.324Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>“梦开始的地方”</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;“梦开始的地方”&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="test" scheme="https://yinjiahuan.github.io/categories/test/"/>
+    
+    
+    <category term="测试" scheme="https://yinjiahuan.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
