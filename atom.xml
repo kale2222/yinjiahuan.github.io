@@ -6,7 +6,7 @@
   <link href="https://yinjiahuan.github.io/atom.xml" rel="self"/>
   
   <link href="https://yinjiahuan.github.io/"/>
-  <updated>2021-07-26T12:56:53.328Z</updated>
+  <updated>2021-07-29T17:29:35.845Z</updated>
   <id>https://yinjiahuan.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git入门</title>
+    <link href="https://yinjiahuan.github.io/2021/07/29/Git%E5%85%A5%E9%97%A8/"/>
+    <id>https://yinjiahuan.github.io/2021/07/29/Git%E5%85%A5%E9%97%A8/</id>
+    <published>2021-07-29T14:14:01.638Z</published>
+    <updated>2021-07-29T17:29:35.845Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h2><p>​        <strong>分布式的版本控制工具</strong>，用于公司的多人合作；由linux之父开发的。服务器坏了也能恢复。相当于把本地版本控制和集中式版本控制相结合。</p><pre><code>  此外还有**集中式的版本控制工具**，例如SVN；但是坏处是服务器坏了会导致数据丢失。需要经常存档服务器的数据。 ## GIt常用的Linux命令</code></pre><p>多多使用，熟能生巧</p><p>cd：打开文件夹（change directory）</p><p>cd .. :打开上一层文件夹</p><p>clear：清除界面</p><p>ls：展示当前目录所有文件（list）</p><p>pwd:展示当前目录（Print Working Directory）</p><p>touch：新建文件</p><p>mkdir：新建文件夹（make directory）</p><p>mv：移动文件到文件夹（move  例如   mv test.txt Test  移动test.txt到Test）</p><p>reset:重新加载终端和clear的效果差不多</p><p>history:查看历史命令</p><p>help:帮助</p><p>exit:退出</p><p>#：注释</p><h2 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h2><p>1.查看所有配置</p><p>git config -l</p><p>2.用户配置</p><p>git config –global –list</p><p>3.系统配置</p><p>git config –system –list</p><p>4.配置用户名和邮箱</p><p>git config –global user.name “你的用户名”</p><p>git config –global user.email “你的邮箱”</p><p>5.说明</p><p>所有的配置文件其实都是保存在本地的！在配置文件的</p><p>系统的配置在安装目录Git/etc/gitconfig</p><p>用户的配置在C盘自己的用户下，所以对在命令行中对配置的操作，本质上是修改了这些文件。</p><h2 id="Git基本理论"><a href="#Git基本理论" class="headerlink" title="Git基本理论"></a>Git基本理论</h2><p><img src="/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA1.png" alt="image-20210729231835776"></p><p><img src="/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA2.png" alt="image-20210729232114349"></p><p><img src="/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA3.png" alt="image-20210729232215003"></p><h2 id="Git的基本操作（关于Git的命令）"><a href="#Git的基本操作（关于Git的命令）" class="headerlink" title="Git的基本操作（关于Git的命令）"></a>Git的基本操作（关于Git的命令）</h2><h3 id="Git的创建和克隆"><a href="#Git的创建和克隆" class="headerlink" title="Git的创建和克隆"></a>Git的创建和克隆</h3><p>1.创建本地仓库</p><p>git init</p><p>2.克隆</p><p>git clone url</p><h3 id="Git的文件操作"><a href="#Git的文件操作" class="headerlink" title="Git的文件操作"></a>Git的文件操作</h3><p>1.文件的四种状态：</p><p><img src="/source/blogimages/git%E6%93%8D%E4%BD%9C1.png" alt="image-20210729234521653"></p><p>2.文件的操作</p><p>git status ： 查看所有文件的状态 （后面加文件名查看当前文件的状态）</p><p>git add .  :  提交所有文件到index区（暂存区）</p><p>git commit -m “new files” :  提交到本地仓库，-m即-message 就是这次提交的一个说明信息，便于同事查看</p><h2 id="Git忽略文件操作"><a href="#Git忽略文件操作" class="headerlink" title="Git忽略文件操作"></a>Git忽略文件操作</h2><p><img src="/source/blogimages/git%E6%93%8D%E4%BD%9C2.png" alt="image-20210730000028240"></p><h2 id="Git的远程仓库的使用"><a href="#Git的远程仓库的使用" class="headerlink" title="Git的远程仓库的使用"></a>Git的远程仓库的使用</h2><p>用github或者gitee</p><p>1.注册账号</p><p>2.设置ssh秘钥</p><p>先生成秘钥   命令：ssh-keygen -t rsa</p><p>在本地的c盘 用户下会有一个.ssh文件夹里面会有 两个文件  把pub的那个打开，粘贴过来。</p><p>3.创建一个自己的仓库</p><h2 id="Git的分支"><a href="#Git的分支" class="headerlink" title="Git的分支"></a>Git的分支</h2><p>1.命令：</p><p><img src="/source/blogimages/git%E5%88%86%E6%94%AF1.png" alt="image-20210730010342612"></p><p>2.分支的说明</p><p><img src="/source/blogimages/git%E6%93%8D%E4%BD%9C3.png" alt="image-20210730010125628"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Git简介&quot;&gt;&lt;a href=&quot;#Git简介&quot; class=&quot;headerlink&quot; title=&quot;Git简介&quot;&gt;&lt;/a&gt;Git简介&lt;/h2&gt;&lt;p&gt;​        &lt;strong&gt;分布式的版本控制工具&lt;/strong&gt;，用于公司的多人合作；由linux之父开发的</summary>
+      
+    
+    
+    
+    <category term="工具篇" scheme="https://yinjiahuan.github.io/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+    <category term="工具" scheme="https://yinjiahuan.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>学贝推文入门</title>

@@ -20,28 +20,36 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yinjiahuan.github.io","root":"/","images":"/images","scheme":"Gemini","version":"8.6.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="整体要求简洁  大方  清晰    排版要求字体大小：正文14px，标题：16px 统一段间距，字间距，字体：微软雅黑  字号越小，字间距相应越大，行间距也越大（个人比较喜欢字间距1.5，行间距1.75） 一般文字段要求，两端对齐、首行缩进。  图片和文字之间要空一行。 选取的图片不能有水印，要说明出处 一般把材料复制过来以后先“清除格式”，避免原来的样式干扰后面的排版布局  其他摘要尽量不要用默">
+<meta name="description" content="Git简介​        分布式的版本控制工具，用于公司的多人合作；由linux之父开发的。服务器坏了也能恢复。相当于把本地版本控制和集中式版本控制相结合。   此外还有**集中式的版本控制工具**，例如SVN；但是坏处是服务器坏了会导致数据丢失。需要经常存档服务器的数据。   ## GIt常用的Linux命令  多多使用，熟能生巧 cd：打开文件夹（change directory） cd .">
 <meta property="og:type" content="article">
-<meta property="og:title" content="学贝推文入门">
-<meta property="og:url" content="https://yinjiahuan.github.io/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/index.html">
+<meta property="og:title" content="Git入门">
+<meta property="og:url" content="https://yinjiahuan.github.io/2021/07/29/Git%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="不器的博客">
-<meta property="og:description" content="整体要求简洁  大方  清晰    排版要求字体大小：正文14px，标题：16px 统一段间距，字间距，字体：微软雅黑  字号越小，字间距相应越大，行间距也越大（个人比较喜欢字间距1.5，行间距1.75） 一般文字段要求，两端对齐、首行缩进。  图片和文字之间要空一行。 选取的图片不能有水印，要说明出处 一般把材料复制过来以后先“清除格式”，避免原来的样式干扰后面的排版布局  其他摘要尽量不要用默">
+<meta property="og:description" content="Git简介​        分布式的版本控制工具，用于公司的多人合作；由linux之父开发的。服务器坏了也能恢复。相当于把本地版本控制和集中式版本控制相结合。   此外还有**集中式的版本控制工具**，例如SVN；但是坏处是服务器坏了会导致数据丢失。需要经常存档服务器的数据。   ## GIt常用的Linux命令  多多使用，熟能生巧 cd：打开文件夹（change directory） cd .">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-07-26T12:26:37.597Z">
-<meta property="article:modified_time" content="2021-07-26T12:56:53.328Z">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA1.png">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA2.png">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA3.png">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E6%93%8D%E4%BD%9C1.png">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E6%93%8D%E4%BD%9C2.png">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E5%88%86%E6%94%AF1.png">
+<meta property="og:image" content="https://yinjiahuan.github.io/source/blogimages/git%E6%93%8D%E4%BD%9C3.png">
+<meta property="article:published_time" content="2021-07-29T14:14:01.638Z">
+<meta property="article:modified_time" content="2021-07-29T17:29:35.845Z">
 <meta property="article:author" content="尹家欢">
-<meta property="article:tag" content="推文">
+<meta property="article:tag" content="工具">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://yinjiahuan.github.io/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA1.png">
 
 
-<link rel="canonical" href="https://yinjiahuan.github.io/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/">
+<link rel="canonical" href="https://yinjiahuan.github.io/2021/07/29/Git%E5%85%A5%E9%97%A8/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://yinjiahuan.github.io/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/","path":"2021/07/26/学贝推文入门/","title":"学贝推文入门"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://yinjiahuan.github.io/2021/07/29/Git%E5%85%A5%E9%97%A8/","path":"2021/07/29/Git入门/","title":"Git入门"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>学贝推文入门 | 不器的博客</title>
+<title>Git入门 | 不器的博客</title>
   
 
 
@@ -149,7 +157,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E8%A6%81%E6%B1%82"><span class="nav-number">1.</span> <span class="nav-text">整体要求</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%92%E7%89%88%E8%A6%81%E6%B1%82"><span class="nav-number">2.</span> <span class="nav-text">排版要求</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">3.</span> <span class="nav-text">其他</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%91%98%E8%A6%81"><span class="nav-number">3.1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BE%80%E6%9C%9F%E6%8E%A8%E8%8D%90"><span class="nav-number">3.2.</span> <span class="nav-text">往期推荐</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%89%E6%9D%90"><span class="nav-number">3.3.</span> <span class="nav-text">选材</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E6%88%91%E6%8F%90%E5%8D%87"><span class="nav-number">3.4.</span> <span class="nav-text">自我提升</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BC%98%E7%A7%80%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%A8%E8%8D%90"><span class="nav-number">3.5.</span> <span class="nav-text">优秀的微信公众号推荐</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">Git简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">Git配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA"><span class="nav-number">3.</span> <span class="nav-text">Git基本理论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E5%85%B3%E4%BA%8EGit%E7%9A%84%E5%91%BD%E4%BB%A4%EF%BC%89"><span class="nav-number">4.</span> <span class="nav-text">Git的基本操作（关于Git的命令）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Git%E7%9A%84%E5%88%9B%E5%BB%BA%E5%92%8C%E5%85%8B%E9%9A%86"><span class="nav-number">4.1.</span> <span class="nav-text">Git的创建和克隆</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git%E7%9A%84%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C"><span class="nav-number">4.2.</span> <span class="nav-text">Git的文件操作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C"><span class="nav-number">5.</span> <span class="nav-text">Git忽略文件操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E7%9A%84%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">6.</span> <span class="nav-text">Git的远程仓库的使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E7%9A%84%E5%88%86%E6%94%AF"><span class="nav-number">7.</span> <span class="nav-text">Git的分支</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -228,7 +236,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yinjiahuan.github.io/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/">
+    <link itemprop="mainEntityOfPage" href="https://yinjiahuan.github.io/2021/07/29/Git%E5%85%A5%E9%97%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -241,7 +249,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          学贝推文入门
+          Git入门
         </h1>
 
         <div class="post-meta-container">
@@ -251,17 +259,23 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-07-26 20:26:37 / 修改时间：20:56:53" itemprop="dateCreated datePublished" datetime="2021-07-26T20:26:37+08:00">2021-07-26</time>
+      <time title="创建时间：2021-07-29 22:14:01" itemprop="dateCreated datePublished" datetime="2021-07-29T22:14:01+08:00">2021-07-29</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-07-30 01:29:35" itemprop="dateModified" datetime="2021-07-30T01:29:35+08:00">2021-07-30</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%8E%A8%E6%96%87/" itemprop="url" rel="index"><span itemprop="name">推文</span></a>
+          <a href="/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/" itemprop="url" rel="index"><span itemprop="name">工具篇</span></a>
         </span>
     </span>
 
@@ -280,7 +294,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>377</span>
+      <span>996</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -298,25 +312,62 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h3 id="整体要求"><a href="#整体要求" class="headerlink" title="整体要求"></a>整体要求</h3><p>简洁  大方  清晰  </p>
-<hr>
-<h3 id="排版要求"><a href="#排版要求" class="headerlink" title="排版要求"></a>排版要求</h3><p>字体大小：正文14px，标题：16px</p>
-<p>统一段间距，字间距，字体：微软雅黑  字号越小，字间距相应越大，行间距也越大（个人比较喜欢字间距1.5，行间距1.75）</p>
-<p>一般文字段要求，两端对齐、首行缩进。 </p>
-<p>图片和文字之间要空一行。</p>
-<p>选取的图片不能有水印，要说明出处</p>
-<p>一般把材料复制过来以后先“清除格式”，避免原来的样式干扰后面的排版布局</p>
-<hr>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><p>尽量不要用默认的截取的32个字，可以自己总结概括一下。或者直接把原来的删掉，用空白代替也行。</p>
-<hr>
-<h4 id="往期推荐"><a href="#往期推荐" class="headerlink" title="往期推荐"></a>往期推荐</h4><p>最下方的往期推荐选取最近的五篇推文</p>
-<hr>
-<h4 id="选材"><a href="#选材" class="headerlink" title="选材"></a>选材</h4><p>需要说明出处，例如：长沙理工大学计通学院官网</p>
-<hr>
-<h4 id="自我提升"><a href="#自我提升" class="headerlink" title="自我提升"></a>自我提升</h4><p>多看优秀的推文；多思考，当我拿到这样的题材的时候我要怎么做；多讨论，小组之间的推文策划创意，推文的检查修改；</p>
-<hr>
-<h4 id="优秀的微信公众号推荐"><a href="#优秀的微信公众号推荐" class="headerlink" title="优秀的微信公众号推荐"></a>优秀的微信公众号推荐</h4><p>长理学贝（最好的当然是自家的优秀推文啦）<br>长沙理工大学官微<br>晚安华师（华南师范大学官微）  </p>
-<hr>
+        <h2 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h2><p>​        <strong>分布式的版本控制工具</strong>，用于公司的多人合作；由linux之父开发的。服务器坏了也能恢复。相当于把本地版本控制和集中式版本控制相结合。</p>
+<pre><code>  此外还有**集中式的版本控制工具**，例如SVN；但是坏处是服务器坏了会导致数据丢失。需要经常存档服务器的数据。
+
+ ## GIt常用的Linux命令
+</code></pre>
+<p>多多使用，熟能生巧</p>
+<p>cd：打开文件夹（change directory）</p>
+<p>cd .. :打开上一层文件夹</p>
+<p>clear：清除界面</p>
+<p>ls：展示当前目录所有文件（list）</p>
+<p>pwd:展示当前目录（Print Working Directory）</p>
+<p>touch：新建文件</p>
+<p>mkdir：新建文件夹（make directory）</p>
+<p>mv：移动文件到文件夹（move  例如   mv test.txt Test  移动test.txt到Test）</p>
+<p>reset:重新加载终端和clear的效果差不多</p>
+<p>history:查看历史命令</p>
+<p>help:帮助</p>
+<p>exit:退出</p>
+<p>#：注释</p>
+<h2 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h2><p>1.查看所有配置</p>
+<p>git config -l</p>
+<p>2.用户配置</p>
+<p>git config –global –list</p>
+<p>3.系统配置</p>
+<p>git config –system –list</p>
+<p>4.配置用户名和邮箱</p>
+<p>git config –global user.name “你的用户名”</p>
+<p>git config –global user.email “你的邮箱”</p>
+<p>5.说明</p>
+<p>所有的配置文件其实都是保存在本地的！在配置文件的</p>
+<p>系统的配置在安装目录Git/etc/gitconfig</p>
+<p>用户的配置在C盘自己的用户下，所以对在命令行中对配置的操作，本质上是修改了这些文件。</p>
+<h2 id="Git基本理论"><a href="#Git基本理论" class="headerlink" title="Git基本理论"></a>Git基本理论</h2><p><img src="/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA1.png" alt="image-20210729231835776"></p>
+<p><img src="/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA2.png" alt="image-20210729232114349"></p>
+<p><img src="/source/blogimages/git%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA3.png" alt="image-20210729232215003"></p>
+<h2 id="Git的基本操作（关于Git的命令）"><a href="#Git的基本操作（关于Git的命令）" class="headerlink" title="Git的基本操作（关于Git的命令）"></a>Git的基本操作（关于Git的命令）</h2><h3 id="Git的创建和克隆"><a href="#Git的创建和克隆" class="headerlink" title="Git的创建和克隆"></a>Git的创建和克隆</h3><p>1.创建本地仓库</p>
+<p>git init</p>
+<p>2.克隆</p>
+<p>git clone url</p>
+<h3 id="Git的文件操作"><a href="#Git的文件操作" class="headerlink" title="Git的文件操作"></a>Git的文件操作</h3><p>1.文件的四种状态：</p>
+<p><img src="/source/blogimages/git%E6%93%8D%E4%BD%9C1.png" alt="image-20210729234521653"></p>
+<p>2.文件的操作</p>
+<p>git status ： 查看所有文件的状态 （后面加文件名查看当前文件的状态）</p>
+<p>git add .  :  提交所有文件到index区（暂存区）</p>
+<p>git commit -m “new files” :  提交到本地仓库，-m即-message 就是这次提交的一个说明信息，便于同事查看</p>
+<h2 id="Git忽略文件操作"><a href="#Git忽略文件操作" class="headerlink" title="Git忽略文件操作"></a>Git忽略文件操作</h2><p><img src="/source/blogimages/git%E6%93%8D%E4%BD%9C2.png" alt="image-20210730000028240"></p>
+<h2 id="Git的远程仓库的使用"><a href="#Git的远程仓库的使用" class="headerlink" title="Git的远程仓库的使用"></a>Git的远程仓库的使用</h2><p>用github或者gitee</p>
+<p>1.注册账号</p>
+<p>2.设置ssh秘钥</p>
+<p>先生成秘钥   命令：ssh-keygen -t rsa</p>
+<p>在本地的c盘 用户下会有一个.ssh文件夹里面会有 两个文件  把pub的那个打开，粘贴过来。</p>
+<p>3.创建一个自己的仓库</p>
+<h2 id="Git的分支"><a href="#Git的分支" class="headerlink" title="Git的分支"></a>Git的分支</h2><p>1.命令：</p>
+<p><img src="/source/blogimages/git%E5%88%86%E6%94%AF1.png" alt="image-20210730010342612"></p>
+<p>2.分支的说明</p>
+<p><img src="/source/blogimages/git%E6%93%8D%E4%BD%9C3.png" alt="image-20210730010125628"></p>
 
     </div>
 
@@ -337,21 +388,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E6%8E%A8%E6%96%87/" rel="tag"><i class="fa fa-tag"></i> 推文</a>
+              <a href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag"><i class="fa fa-tag"></i> 工具</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/07/26/markdown%E5%86%99%E4%BD%9C%E5%85%A5%E9%97%A8/" rel="prev" title="markdown写作入门">
-                  <i class="fa fa-chevron-left"></i> markdown写作入门
+                <a href="/2021/07/26/%E5%AD%A6%E8%B4%9D%E6%8E%A8%E6%96%87%E5%85%A5%E9%97%A8/" rel="prev" title="学贝推文入门">
+                  <i class="fa fa-chevron-left"></i> 学贝推文入门
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/07/29/Git%E5%85%A5%E9%97%A8/" rel="next" title="Git入门">
-                  Git入门 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
